@@ -268,12 +268,12 @@ main{
 .bg-top{
   top:0;
   height:60%;
-  background: url("/assets/images/bg-group.png") center/cover no-repeat;
+  background: url("../images/bg-group.png") center/cover no-repeat;
 }
 .bg-bottom{
   bottom:0;
   height:45%;
-  background:url("/assets/images/bg-group.png") center/cover no-repeat;
+  background:url("../images/bg-group.png") center/cover no-repeat;
 }
 .app-header{
   position:relative;
