@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verify OTP – Matrix Campus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="icon" href="/assets/images/favicon/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="app otp-container">
+  <div class="bg-layer bg-top"></div>
+  <div class="bg-layer bg-bottom"></div>
+  <header class="app-header">
+    <img src="assets/images/logo.svg" alt="Review My Hostel">
+  </header>
+  <main class="login-content">
+
+    <img src="assets/images/text.svg" class="img-fluid" alt="Welcome to Matrix Campus">
+
+    <p>
+      Enter the code we’ve sent on your Phone <br> number xxxxxx8798
+    </p>
+    <div class="otp-wrapper">
+      <input type="text" inputmode="numeric" maxlength="1" class="otp-input">
+      <input type="text" inputmode="numeric" maxlength="1" class="otp-input">
+      <input type="text" inputmode="numeric" maxlength="1" class="otp-input">
+      <input type="text" inputmode="numeric" maxlength="1" class="otp-input">
+    </div>
+    <button class="cta-btn cta-pill justify-content-center">Verify Phone Number</button>
+    <p class="resend">
+      Didn’t receive OTP?
+      <span id="timer">Resend in 01:00 sec</span>
+    </p>
+  </main>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
